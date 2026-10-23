@@ -1,0 +1,28 @@
+#footer {
+  /* background: #06152f; */
+  /* margin-top: 40px; */
+  background: #06152f;
+}
+
+.footer {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 0px;
+}
+
+.footer-column {
+  text-align: center;
+}
+
+.footer-column h3 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.footer-column p {
+  color: white;
+  font-size: 20px;
+  margin: 10px 0;
+}

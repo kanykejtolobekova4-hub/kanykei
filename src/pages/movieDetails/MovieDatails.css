@@ -1,0 +1,32 @@
+.movieDetails {
+  display: flex;
+  gap: 50px;
+  margin-top: 60px;
+  h2{
+    color: white;
+  }
+  
+  p {
+      color: white;
+  }
+}
+
+.movieDetailsText {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  h1{
+    color: white;
+}
+}
+
+.movieDeailsIcon {
+    display: flex;
+    gap: 30px;
+}
+
+.movieDetails {
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}

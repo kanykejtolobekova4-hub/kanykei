@@ -1,0 +1,95 @@
+/* .trend {
+  display: flex;
+  gap: 40px;
+  overflow: scroll;
+} */
+#trend {
+  padding: 60px;
+  /* background: #06152f; */
+  background: rgb(4, 34, 58);
+
+  h1 {
+    color: white;
+  }
+}
+
+.trend {
+  scrollbar-width: none;
+  gap: 20px;
+  margin: 20px 0 50px;
+  padding: 20px;
+  display: flex;
+  overflow-x: auto;
+  /* -webkit-mask-image: linear-gradient(90deg, #0000 0%, #000 5% 90%, #0000 100%);
+  mask-image: linear-gradient(90deg, #0000 0%, #000 5% 90%, #0000 100%);
+  background: #06152f; */
+}
+
+.trendCard {
+  flex: 0 0 300px;
+  width: 300px;
+  /* background-color: white; */
+  border-radius: 0 0 15px 15px;
+  overflow: hidden;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+  transition: 0.6s;
+}
+
+.trend-poster {
+  position: relative;
+  width: 100%;
+  height: 438px;
+}
+.trendCard:hover {
+  transform: translateY(-15px);
+}
+
+.trend-poster img {
+  width: 300px;
+  height: 440px;
+  object-fit: cover;
+  display: block;
+  border-radius: 15px 15px 0 0;
+}
+
+.rating {
+  position: absolute;
+  top: 22px;
+  right: 22px;
+
+  width: 55px;
+  height: 55px;
+
+  border-radius: 50%;
+  background-color: #111;
+
+  border: 5px solid #20c997;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.trendCard h1 {
+  margin: 14px 22px 2px;
+
+  color: #f8fafb;
+
+  font-size: 20px;
+  font-weight: 700;
+
+  line-height: 1.15;
+}
+
+.trendCard h2 {
+  margin: 0 22px 20px;
+
+  color: #8a8888;
+
+  font-size: 22px;
+  font-weight: 600;
+}

@@ -1,0 +1,14 @@
+.TopRatedCard{
+    width: 250px;
+    overflow: hidden;
+
+}
+
+.TopRated{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
